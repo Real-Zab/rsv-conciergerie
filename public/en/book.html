@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Book your stay · RSV Conciergerie</title>
+<meta name="description" content="Plan your stay online: a concierge adjusts every detail with you before confirming.">
+<link rel="alternate" hreflang="fr" href="/reserver">
+<link rel="alternate" hreflang="en" href="/en/book">
+<link rel="alternate" hreflang="x-default" href="/reserver">
+<meta property="og:title" content="Book your stay · RSV Conciergerie">
+<meta property="og:description" content="Plan your stay online: a concierge adjusts every detail with you before confirming.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/bodoni-moda-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/theme.js"></script>
+</head>
+<body>
+<a class="sr" href="#contenu">Skip to content</a>
+<header class="head">
+<div class="head__left">
+<button type="button" class="icon-btn" data-burger aria-expanded="false" aria-controls="volet" aria-label="Open menu"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><path d="M2 6h20M2 12h20M2 18h20" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+<a class="logo" href="/en/" aria-label="RSV Conciergerie">RSV</a>
+</div>
+<nav class="bar" aria-label="Main navigation">
+<a href="/en/residences">Residences</a>
+<a href="/en/vehicles">Vehicles</a>
+<a href="/en/experiences">Experiences</a>
+<a href="/en/book" aria-current="page">Concierge</a>
+<a class="btn btn--sm" href="/en/book">Book</a>
+</nav>
+<div class="head__right">
+<div class="lang" data-lang>
+<button type="button" class="lang__btn" aria-expanded="false" aria-label="Language"><span>EN</span><svg aria-hidden="true" width="12" height="12" viewBox="0 0 12 12"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+<div class="lang__list">
+<a href="/reserver" lang="fr" hreflang="fr">Français</a>
+<a href="/en/book" lang="en" hreflang="en" aria-current="true">English</a>
+</div>
+</div>
+<button type="button" class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Dark mode" data-dark="Dark mode" data-light="Light mode"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+</header>
+<button type="button" class="veil" data-veil hidden aria-label="Close menu"></button>
+<nav class="drawer" id="volet" data-drawer hidden aria-label="Menu">
+<div class="drawer__site">
+<a href="/en/residences">Residences</a>
+<a href="/en/vehicles">Vehicles</a>
+<a href="/en/experiences">Experiences</a>
+<a href="/en/book" aria-current="page">Concierge</a>
+<a class="btn btn--full" href="/en/book">Book</a>
+</div>
+<a href="/en/membership">Membership</a>
+<a href="/en/events">Events agency</a>
+<a href="/en/experiences#offres">Current offers</a>
+<a href="/en/about">About</a>
+<a href="/en/book">Contact</a>
+<a href="/en/legal">Legal notice</a>
+<a class="drawer__login" href="/en/member-area"><span>Member area</span><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24"><path d="M3 12h11M10 8l4 4-4 4M14 4h6v16h-6" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></a>
+</nav>
+<main id="contenu">
+<div class="split">
+<section class="pane pane--narrow pane--between">
+<div class="stack stack--lg">
+<div class="eyebrow">Concierge</div>
+<h1 class="h1">Tell us what you would like.</h1>
+<p class="lead">You book online, and a concierge adjusts every detail with you before confirming. Nothing is standard.</p>
+</div>
+<div class="contact">
+<div class="ph__tag">Prefer to talk to someone</div>
+<div>WhatsApp: [NUMBER]</div><div>Phone: [NUMBER]</div><div>Email: [ADDRESS]</div><div>Reply within [DELAY], 7 days a week</div>
+</div>
+</section>
+<section class="pane pane--wide pane--line">
+<form class="form" data-form="demande" data-api="/api/demandes" data-e0="Your request could not be sent. Check your connection and try again." data-e400="Some fields are incomplete. Check them and try again." data-e429="Too many attempts. Try again in a few minutes." novalidate>
+<fieldset>
+<legend class="legend">Your stay includes</legend>
+<div class="chips">
+<label class="chip"><input type="checkbox" name="inclus" value="residence" checked><span>Residence</span></label>
+<label class="chip"><input type="checkbox" name="inclus" value="vehicule" checked><span>Vehicle</span></label>
+<label class="chip"><input type="checkbox" name="inclus" value="experiences"><span>Experiences</span></label>
+<label class="chip"><input type="checkbox" name="inclus" value="libre"><span>Surprise us</span></label>
+</div>
+</fieldset>
+<div class="row">
+<div class="field"><label for="arrivee">Arrival</label><input id="arrivee" name="arrivee" type="date"></div>
+<div class="field"><label for="depart">Departure</label><input id="depart" name="depart" type="date"></div>
+<div class="field"><label for="voyageurs">Guests</label><input id="voyageurs" name="voyageurs" type="number" min="1" max="99" value="2" inputmode="numeric"></div>
+</div>
+<div class="field"><label for="souhaits">Special wishes</label><textarea id="souhaits" name="souhaits" rows="4" maxlength="2000"></textarea><div class="hint">A birthday, a dietary need, an English-speaking driver, a late arrival: write it here.</div></div>
+<div class="row">
+<div class="field"><label for="nom">Name</label><input id="nom" name="nom" type="text" autocomplete="name" maxlength="120" required></div>
+<div class="field"><label for="contact">WhatsApp or email</label><input id="contact" name="contact" type="text" maxlength="160" required></div>
+</div>
+<p class="msg" data-msg role="alert" hidden></p>
+<div class="btn-row"><button type="submit" class="btn btn--full">Send my request</button></div>
+<div class="hint">No payment at this step.</div>
+</form>
+<div class="done" data-done tabindex="-1" hidden>
+<div class="eyebrow">Request received</div>
+<h2 class="h2">Thank you. Your concierge will write to you within [DELAY].</h2>
+<p class="lead">They review your request and send you a complete proposal to approve before any payment.</p>
+<div class="btn-row"><button type="button" class="btn" data-again>Edit my request</button></div>
+</div>
+</section>
+</div>
+</main>
+<footer class="foot">
+<nav class="acc-list" aria-label="Navigation">
+<details><summary>Membership</summary><div class="links">
+<a href="/en/membership#privee">Private membership</a>
+<a href="/en/membership#entreprise">Corporate membership</a>
+<a href="/en/member-area#adhesion">Become a member</a>
+</div></details>
+<details><summary>Services</summary><div class="links">
+<a href="/en/residences">Residences</a>
+<a href="/en/vehicles">Vehicles</a>
+<a href="/en/experiences">Experiences</a>
+<a href="/en/events">Events agency</a>
+</div></details>
+<details><summary>Contact</summary><div class="links">
+<a href="/en/book">Make a request</a>
+<span>WhatsApp: [NUMBER]</span>
+<a href="/en/legal">Legal notice</a>
+</div></details>
+</nav>
+<div class="follow">
+<div class="follow__t">Follow</div>
+<ul class="socials">
+<li><a class="rs-instagram" href="#" aria-label="Instagram"></a></li>
+<li><a class="rs-tiktok" href="#" aria-label="TikTok"></a></li>
+<li><a class="rs-facebook" href="#" aria-label="Facebook"></a></li>
+<li><a class="rs-youtube" href="#" aria-label="YouTube"></a></li>
+<li><a class="rs-x" href="#" aria-label="X"></a></li>
+</ul>
+</div>
+<div class="copy">© 2026 RSV Conciergerie. All rights reserved.</div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>

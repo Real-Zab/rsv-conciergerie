@@ -1,0 +1,466 @@
+{
+ "fr": {
+  "navAria": "Navigation principale",
+  "doorsAria": "Univers",
+  "nav": [
+   "Résidences",
+   "Véhicules",
+   "Expériences",
+   "Conciergerie"
+  ],
+  "more": [
+   "Adhésion",
+   "Agence événementielle",
+   "Offres du moment",
+   "À propos",
+   "Contact",
+   "Mentions légales"
+  ],
+  "memEyebrow": "Adhésion",
+  "memH1": "Deux formules d’adhésion, des avantages réservés aux membres.",
+  "memLines": [
+   "Adhésion privée : [avantages, tarif et conditions]",
+   "Adhésion entreprise : [avantages, tarif et conditions]",
+   "Sans adhésion, vous pouvez réserver et adresser toute demande à la conciergerie."
+  ],
+  "memCta": "Devenir membre",
+  "memPriv": "Adhésion privée",
+  "memCorp": "Adhésion entreprise",
+  "evEyebrow": "Agence événementielle",
+  "evH1": "Vos événements, organisés de bout en bout.",
+  "evLines": [
+   "[Types d’événements pris en charge]",
+   "[Prestations : lieux, restauration, personnel, logistique]",
+   "[Références et réalisations]"
+  ],
+  "evCta": "Faire une demande",
+  "footMem": "Adhésion",
+  "footSrv": "Services",
+  "footCtc": "Contact",
+  "footAsk": "Faire une demande",
+  "loginLabel": "Espace membre",
+  "loginH1": "Connexion",
+  "loginMail": "E-mail",
+  "loginPass": "Mot de passe",
+  "loginBtn": "Se connecter",
+  "loginNote": "Pas encore membre ? Vous pouvez réserver et faire une demande sans adhésion.",
+  "aboutEyebrow": "La maison",
+  "aboutH1": "Une maison sénégalaise, au service de vos séjours.",
+  "aboutLines": [
+   "[Présentation de RSV Conciergerie : histoire et fondateur]",
+   "[Équipe et concierges]",
+   "[Engagements : sélection des résidences, véhicules, partenaires]"
+  ],
+  "legalEyebrow": "Informations",
+  "legalH1": "Mentions légales",
+  "legalLines": [
+   "[Raison sociale et forme juridique]",
+   "[Adresse du siège]",
+   "[NINEA et RCCM]",
+   "[Hébergeur du site]",
+   "[Politique de confidentialité et gestion des données personnelles]"
+  ],
+  "menuAria": "Menu",
+  "openMenu": "Ouvrir le menu",
+  "closeMenu": "Fermer le menu",
+  "langAria": "Langue",
+  "footNav": "Navigation",
+  "follow": "Suivre",
+  "rights": "Tous droits réservés.",
+  "book": "Réserver",
+  "bookArrow": "Réserver →",
+  "themeDark": "Mode sombre",
+  "themeLight": "Mode clair",
+  "homeEyebrow": "Dakar · Sénégal",
+  "homeH1a": "Vous arrivez.",
+  "homeH1b": "Tout est",
+  "homeH1c": "déjà prêt",
+  "homeP": "Résidences, véhicules avec chauffeur et expériences privées, réunis sous une seule maison. Un concierge compose votre séjour, dans l’esprit de la Teranga.",
+  "ctaPlan": "Composer mon séjour",
+  "ctaRes": "Voir les résidences",
+  "ctaAddVeh": "Ajouter un véhicule",
+  "videoTag": "[Vidéo plein écran]",
+  "videoText": "Océan, corniche des Almadies, lumière de fin de journée. Film muet, en boucle, léger pour le réseau mobile.",
+  "photoTag": "[Photo]",
+  "doors": [
+   [
+    "Séjourner",
+    "Résidences",
+    "Villas et appartements de standing"
+   ],
+   [
+    "Se déplacer",
+    "Véhicules",
+    "Avec ou sans chauffeur, dès l’aéroport"
+   ],
+   [
+    "Vivre",
+    "Expériences",
+    "Gorée, Lac Rose, tables, bien-être"
+   ],
+   [
+    "Demander",
+    "Conciergerie",
+    "Une demande, un concierge dédié"
+   ]
+  ],
+  "resEyebrow": "Séjourner",
+  "resH1": "Des adresses que l’on ne trouve pas ailleurs.",
+  "resNote": "Chaque résidence est visitée et préparée par nos équipes avant votre arrivée.",
+  "fCap": "[Capacité]",
+  "fBed": "[Chambres]",
+  "fNight": "[Tarif / nuit]",
+  "res": [
+   [
+    "Villa front de mer",
+    "Almadies · Dakar",
+    "Terrasse et piscine face à l’océan, lumière du soir.",
+    "Une villa ouverte sur l’Atlantique, avec personnel de maison et chef sur demande."
+   ],
+   [
+    "Penthouse",
+    "Plateau · Dakar",
+    "Salon en hauteur, vue sur la baie et l’île de Gorée.",
+    "Au cœur du quartier d’affaires, pour un séjour professionnel sans compromis."
+   ],
+   [
+    "Villa balnéaire",
+    "Saly · Petite Côte",
+    "Jardin, plage au bout de l’allée, matières locales.",
+    "La plage à quelques pas, pour les familles et les groupes qui veulent du temps ensemble."
+   ],
+   [
+    "Lodge",
+    "Sine Saloum",
+    "Ponton sur les bolongs au lever du jour.",
+    "Le calme du delta, entre mangrove et pirogues, à quelques heures de Dakar."
+   ]
+  ],
+  "vehEyebrow": "Se déplacer",
+  "vehH1": "La route fait partie du séjour.",
+  "vehP": "Un véhicule vous attend à la sortie de l’avion. Avec chauffeur ou en conduite libre, pour une heure, une journée ou tout le séjour.",
+  "veh": [
+   [
+    "Berline noire, portière ouverte, chauffeur en tenue.",
+    "Berline avec chauffeur",
+    "Rendez-vous d’affaires, dîners, soirées.",
+    "[Tarif / jour]"
+   ],
+   [
+    "SUV sur la corniche, océan en arrière-plan.",
+    "SUV prestige",
+    "Dakar et les routes de la Petite Côte.",
+    "[Tarif / jour]"
+   ],
+   [
+    "Intérieur cuir d’un van, sièges face à face.",
+    "Van VIP",
+    "Familles, délégations et groupes.",
+    "[Tarif / jour]"
+   ],
+   [
+    "Accueil nominatif à la sortie de l’aéroport.",
+    "Transfert aéroport",
+    "AIBD vers Dakar, Saly ou votre résidence.",
+    "[Tarif / trajet]"
+   ]
+  ],
+  "expEyebrow": "Vivre",
+  "expH1a": "Le Sénégal,",
+  "expH1b": "en privé",
+  "expP": "Chaque sortie est organisée pour vous seuls : guide, véhicule, table réservée. Vous choisissez le rythme.",
+  "expCta": "Demander une expérience",
+  "exp": [
+   [
+    "Culture",
+    "Île de Gorée",
+    "Traversée privée et visite avec un guide historien."
+   ],
+   [
+    "Excursion",
+    "Lac Rose",
+    "Dunes, lac et déjeuner au bord de l’eau."
+   ],
+   [
+    "Océan",
+    "Plage et sortie en mer",
+    "Bateau privé, îles et criques au large de Dakar."
+   ],
+   [
+    "Gastronomie",
+    "Tables et bars",
+    "Réservations dans les meilleures adresses, ou chef à domicile."
+   ],
+   [
+    "Bien-être",
+    "Spa et soins",
+    "En institut ou dans votre résidence."
+   ],
+   [
+    "Offres du moment",
+    "[Offre spéciale]",
+    "[Séjour, véhicule et expérience réunis, dates et conditions]"
+   ]
+  ],
+  "bkEyebrow": "Conciergerie",
+  "bkH1": "Dites-nous ce que vous souhaitez.",
+  "bkP": "Vous réservez en ligne, et un concierge ajuste chaque détail avec vous avant de confirmer. Rien n’est standard.",
+  "bkTalk": "Vous préférez parler à quelqu’un",
+  "bkWa": "WhatsApp : [NUMÉRO]",
+  "bkTel": "Téléphone : [NUMÉRO]",
+  "bkMail": "E-mail : [ADRESSE]",
+  "bkDelay": "Réponse sous [DÉLAI], 7 jours sur 7",
+  "bkIncludes": "Votre séjour comprend",
+  "chips": [
+   "Résidence",
+   "Véhicule",
+   "Expériences",
+   "Laissez-nous proposer"
+  ],
+  "bkIn": "Arrivée",
+  "bkOut": "Départ",
+  "bkGuests": "Voyageurs",
+  "bkWishes": "Vos souhaits particuliers",
+  "bkHint": "Un anniversaire, un régime alimentaire, un chauffeur anglophone, une arrivée tardive : écrivez-le ici.",
+  "bkName": "Nom",
+  "bkContact": "WhatsApp ou e-mail",
+  "bkSend": "Envoyer ma demande",
+  "bkNoPay": "Aucun paiement à cette étape.",
+  "okEyebrow": "Demande reçue",
+  "okH2": "Merci. Votre concierge vous écrit sous [DÉLAI].",
+  "okP": "Il reprend votre demande et vous envoie une proposition complète, à valider avant tout paiement.",
+  "okBack": "Modifier ma demande"
+ },
+ "en": {
+  "navAria": "Main navigation",
+  "doorsAria": "Services",
+  "nav": [
+   "Residences",
+   "Vehicles",
+   "Experiences",
+   "Concierge"
+  ],
+  "more": [
+   "Membership",
+   "Events agency",
+   "Current offers",
+   "About",
+   "Contact",
+   "Legal notice"
+  ],
+  "memEyebrow": "Membership",
+  "memH1": "Two membership plans, with benefits reserved for members.",
+  "memLines": [
+   "Private membership: [benefits, price and terms]",
+   "Corporate membership: [benefits, price and terms]",
+   "Without membership, you can still book and send any request to the concierge."
+  ],
+  "memCta": "Become a member",
+  "memPriv": "Private membership",
+  "memCorp": "Corporate membership",
+  "evEyebrow": "Events agency",
+  "evH1": "Your events, organised from start to finish.",
+  "evLines": [
+   "[Types of events covered]",
+   "[Services: venues, catering, staff, logistics]",
+   "[References and past events]"
+  ],
+  "evCta": "Make a request",
+  "footMem": "Membership",
+  "footSrv": "Services",
+  "footCtc": "Contact",
+  "footAsk": "Make a request",
+  "loginLabel": "Member area",
+  "loginH1": "Sign in",
+  "loginMail": "Email",
+  "loginPass": "Password",
+  "loginBtn": "Sign in",
+  "loginNote": "Not a member yet? You can book and send a request without membership.",
+  "aboutEyebrow": "The house",
+  "aboutH1": "A Senegalese house, at the service of your stays.",
+  "aboutLines": [
+   "[About RSV Conciergerie: story and founder]",
+   "[Team and concierges]",
+   "[Commitments: how residences, vehicles and partners are selected]"
+  ],
+  "legalEyebrow": "Information",
+  "legalH1": "Legal notice",
+  "legalLines": [
+   "[Company name and legal form]",
+   "[Registered address]",
+   "[NINEA and RCCM numbers]",
+   "[Website host]",
+   "[Privacy policy and personal data handling]"
+  ],
+  "menuAria": "Menu",
+  "openMenu": "Open menu",
+  "closeMenu": "Close menu",
+  "langAria": "Language",
+  "footNav": "Navigation",
+  "follow": "Follow",
+  "rights": "All rights reserved.",
+  "book": "Book",
+  "bookArrow": "Book →",
+  "themeDark": "Dark mode",
+  "themeLight": "Light mode",
+  "homeEyebrow": "Dakar · Senegal",
+  "homeH1a": "You arrive.",
+  "homeH1b": "Everything is",
+  "homeH1c": "already in place",
+  "homeP": "Residences, chauffeured vehicles and private experiences, all from one house. A concierge plans your stay in the spirit of Teranga, Senegalese hospitality.",
+  "ctaPlan": "Plan my stay",
+  "ctaRes": "View residences",
+  "ctaAddVeh": "Add a vehicle",
+  "videoTag": "[Full-screen video]",
+  "videoText": "The ocean, the Almadies corniche, late afternoon light. Silent looping film, light enough for mobile networks.",
+  "photoTag": "[Photo]",
+  "doors": [
+   [
+    "Stay",
+    "Residences",
+    "Villas and high-end apartments"
+   ],
+   [
+    "Travel",
+    "Vehicles",
+    "With or without a driver, from the airport"
+   ],
+   [
+    "Live",
+    "Experiences",
+    "Gorée, Lac Rose, dining, wellness"
+   ],
+   [
+    "Ask",
+    "Concierge",
+    "One request, one dedicated concierge"
+   ]
+  ],
+  "resEyebrow": "Stay",
+  "resH1": "Addresses you will not find anywhere else.",
+  "resNote": "Our team visits and prepares every residence before you arrive.",
+  "fCap": "[Capacity]",
+  "fBed": "[Bedrooms]",
+  "fNight": "[Rate / night]",
+  "res": [
+   [
+    "Oceanfront villa",
+    "Almadies · Dakar",
+    "Terrace and pool facing the ocean, evening light.",
+    "A villa open to the Atlantic, with house staff and a chef on request."
+   ],
+   [
+    "Penthouse",
+    "Plateau · Dakar",
+    "High-floor living room, view of the bay and Gorée Island.",
+    "In the heart of the business district, for a work trip without compromise."
+   ],
+   [
+    "Beach villa",
+    "Saly · Petite Côte",
+    "Garden, beach at the end of the path, local materials.",
+    "The beach a few steps away, for families and groups who want time together."
+   ],
+   [
+    "Lodge",
+    "Sine Saloum",
+    "A jetty on the bolongs at sunrise.",
+    "The quiet of the delta, among mangroves and pirogues, a few hours from Dakar."
+   ]
+  ],
+  "vehEyebrow": "Travel",
+  "vehH1": "The drive is part of the stay.",
+  "vehP": "A vehicle is waiting when you step off the plane. Chauffeured or self-drive, for an hour, a day or your whole stay.",
+  "veh": [
+   [
+    "Black sedan, door open, driver in uniform.",
+    "Chauffeured sedan",
+    "Business meetings, dinners, evenings out.",
+    "[Rate / day]"
+   ],
+   [
+    "SUV on the corniche, ocean behind.",
+    "Prestige SUV",
+    "Dakar and the roads of the Petite Côte.",
+    "[Rate / day]"
+   ],
+   [
+    "Leather van interior, facing seats.",
+    "VIP van",
+    "Families, delegations and groups.",
+    "[Rate / day]"
+   ],
+   [
+    "Name-board welcome at airport arrivals.",
+    "Airport transfer",
+    "AIBD to Dakar, Saly or your residence.",
+    "[Rate / trip]"
+   ]
+  ],
+  "expEyebrow": "Live",
+  "expH1a": "Senegal,",
+  "expH1b": "in private",
+  "expP": "Every outing is arranged for you alone: guide, vehicle, table booked. You set the pace.",
+  "expCta": "Request an experience",
+  "exp": [
+   [
+    "Culture",
+    "Gorée Island",
+    "Private crossing and a visit with a historian guide."
+   ],
+   [
+    "Excursion",
+    "Lac Rose",
+    "Dunes, the lake and lunch by the water."
+   ],
+   [
+    "Ocean",
+    "Beach and boat trips",
+    "Private boat, islands and coves off Dakar."
+   ],
+   [
+    "Dining",
+    "Restaurants and bars",
+    "Tables at the best addresses, or a private chef."
+   ],
+   [
+    "Wellness",
+    "Spa and treatments",
+    "At a spa or in your residence."
+   ],
+   [
+    "Current offers",
+    "[Special offer]",
+    "[Stay, vehicle and experience together, dates and terms]"
+   ]
+  ],
+  "bkEyebrow": "Concierge",
+  "bkH1": "Tell us what you would like.",
+  "bkP": "You book online, and a concierge adjusts every detail with you before confirming. Nothing is standard.",
+  "bkTalk": "Prefer to talk to someone",
+  "bkWa": "WhatsApp: [NUMBER]",
+  "bkTel": "Phone: [NUMBER]",
+  "bkMail": "Email: [ADDRESS]",
+  "bkDelay": "Reply within [DELAY], 7 days a week",
+  "bkIncludes": "Your stay includes",
+  "chips": [
+   "Residence",
+   "Vehicle",
+   "Experiences",
+   "Surprise us"
+  ],
+  "bkIn": "Arrival",
+  "bkOut": "Departure",
+  "bkGuests": "Guests",
+  "bkWishes": "Special wishes",
+  "bkHint": "A birthday, a dietary need, an English-speaking driver, a late arrival: write it here.",
+  "bkName": "Name",
+  "bkContact": "WhatsApp or email",
+  "bkSend": "Send my request",
+  "bkNoPay": "No payment at this step.",
+  "okEyebrow": "Request received",
+  "okH2": "Thank you. Your concierge will write to you within [DELAY].",
+  "okP": "They review your request and send you a complete proposal to approve before any payment.",
+  "okBack": "Edit my request"
+ }
+}

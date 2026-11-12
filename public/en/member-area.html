@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Member area · RSV Conciergerie</title>
+<meta name="description" content="Sign in to the RSV Conciergerie member area or request membership.">
+<link rel="alternate" hreflang="fr" href="/espace-membre">
+<link rel="alternate" hreflang="en" href="/en/member-area">
+<link rel="alternate" hreflang="x-default" href="/espace-membre">
+<meta property="og:title" content="Member area · RSV Conciergerie">
+<meta property="og:description" content="Sign in to the RSV Conciergerie member area or request membership.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#FFFFFF">
+<link rel="preload" href="/assets/fonts/jost-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/bodoni-moda-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/site.css">
+<script src="/assets/theme.js"></script>
+</head>
+<body>
+<a class="sr" href="#contenu">Skip to content</a>
+<header class="head">
+<div class="head__left">
+<button type="button" class="icon-btn" data-burger aria-expanded="false" aria-controls="volet" aria-label="Open menu"><svg aria-hidden="true" width="24" height="24" viewBox="0 0 24 24"><path d="M2 6h20M2 12h20M2 18h20" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+<a class="logo" href="/en/" aria-label="RSV Conciergerie">RSV</a>
+</div>
+<nav class="bar" aria-label="Main navigation">
+<a href="/en/residences">Residences</a>
+<a href="/en/vehicles">Vehicles</a>
+<a href="/en/experiences">Experiences</a>
+<a href="/en/book">Concierge</a>
+<a class="btn btn--sm" href="/en/book">Book</a>
+</nav>
+<div class="head__right">
+<div class="lang" data-lang>
+<button type="button" class="lang__btn" aria-expanded="false" aria-label="Language"><span>EN</span><svg aria-hidden="true" width="12" height="12" viewBox="0 0 12 12"><path d="M2 4.5l4 4 4-4" fill="none" stroke="currentColor" stroke-width="1.2"/></svg></button>
+<div class="lang__list">
+<a href="/espace-membre" lang="fr" hreflang="fr">Français</a>
+<a href="/en/member-area" lang="en" hreflang="en" aria-current="true">English</a>
+</div>
+</div>
+<button type="button" class="icon-btn" data-theme-toggle aria-pressed="false" aria-label="Dark mode" data-dark="Dark mode" data-light="Light mode"><svg aria-hidden="true" width="22" height="22" viewBox="0 0 16 16"><circle cx="8" cy="8" r="6.5" fill="none" stroke="currentColor" stroke-width="1"/><path d="M8 1.5a6.5 6.5 0 0 1 0 13z" fill="currentColor"/></svg></button>
+</div>
+</header>
+<button type="button" class="veil" data-veil hidden aria-label="Close menu"></button>
+<nav class="drawer" id="volet" data-drawer hidden aria-label="Menu">
+<div class="drawer__site">
+<a href="/en/residences">Residences</a>
+<a href="/en/vehicles">Vehicles</a>
+<a href="/en/experiences">Experiences</a>
+<a href="/en/book">Concierge</a>
+<a class="btn btn--full" href="/en/book">Book</a>
+</div>
+<a href="/en/membership">Membership</a>
+<a href="/en/events">Events agency</a>
+<a href="/en/experiences#offres">Current offers</a>
+<a href="/en/about">About</a>
+<a href="/en/book">Contact</a>
+<a href="/en/legal">Legal notice</a>
+<a class="drawer__login" href="/en/member-area"><span>Member area</span><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24"><path d="M3 12h11M10 8l4 4-4 4M14 4h6v16h-6" fill="none" stroke="currentColor" stroke-width="1.3"/></svg></a>
+</nav>
+<main id="contenu">
+<section class="pane info" data-member>
+<div data-guest class="stack stack--lg">
+<h1 class="h1">Member area</h1>
+<div class="member">
+<section>
+<h2>Sign in</h2>
+<form class="form" data-form="connexion" data-api="/api/connexion" data-e0="Your request could not be sent. Check your connection and try again." data-e400="Some fields are incomplete. Check them and try again." data-e401="Incorrect email or password." data-e403="This account is suspended. Contact the concierge." data-e429="Too many attempts. Try again in a few minutes." novalidate>
+<div class="field"><label for="c-email">Email</label><input id="c-email" name="email" type="email" autocomplete="email" required></div>
+<div class="field"><label for="c-mdp">Password</label><input id="c-mdp" name="mot_de_passe" type="password" autocomplete="current-password" required></div>
+<p class="msg" data-msg role="alert" hidden></p>
+<button type="submit" class="btn btn--full btn--block">Sign in</button>
+</form>
+</section>
+<section id="adhesion">
+<h2>Request membership</h2>
+<form class="form" data-form="inscription" data-api="/api/inscription" data-e0="Your request could not be sent. Check your connection and try again." data-e400="Some fields are incomplete. Check them and try again." data-e409="An account already exists with this email. Sign in." data-e429="Too many attempts. Try again in a few minutes." novalidate>
+<div class="field"><label for="i-nom">Full name</label><input id="i-nom" name="nom" type="text" autocomplete="name" maxlength="120" required></div>
+<div class="field"><label for="i-email">Email</label><input id="i-email" name="email" type="email" autocomplete="email" maxlength="160" required></div>
+<div class="field"><label for="i-tel">Phone or WhatsApp</label><input id="i-tel" name="telephone" type="tel" autocomplete="tel" maxlength="40"></div>
+<div class="field"><label for="i-formule">Plan</label><select id="i-formule" name="formule"><option value="privee">Private membership</option><option value="entreprise">Corporate membership</option></select></div>
+<div class="field"><label for="i-mdp">Password</label><input id="i-mdp" name="mot_de_passe" type="password" autocomplete="new-password" minlength="10" maxlength="200" required><div class="hint">10 characters minimum.</div></div>
+<p class="msg" data-msg role="alert" hidden></p>
+<button type="submit" class="btn btn--block">Send my membership request</button>
+<div class="hint">The concierge reviews your request and contacts you to activate it.</div>
+</form>
+</section>
+</div>
+<p class="lead">Not a member yet? You can book and send a request without membership.</p>
+<div class="btn-row"><a class="btn" href="/en/book">Book</a></div>
+</div>
+<div data-account class="stack stack--lg" hidden data-fprivee="Private membership" data-fentreprise="Corporate membership" data-senattente="Request under review" data-sactif="Active membership" data-ssuspendu="Suspended">
+<div class="eyebrow">Member area</div>
+<h1 class="h1">Welcome, <span data-m-nom></span></h1>
+<div class="kv">
+<div><span class="caps">Email</span><span data-m-email></span></div>
+<div><span class="caps">Plan</span><span data-m-formule></span></div>
+<div><span class="caps">Status</span><span data-m-statut></span></div>
+</div>
+<p>[Member benefits, bookings and invoices: to be built]</p>
+<div class="btn-row">
+<a class="btn btn--full" href="/en/book">Book</a>
+<button type="button" class="btn" data-logout>Sign out</button>
+</div>
+</div>
+</section>
+</main>
+<footer class="foot">
+<nav class="acc-list" aria-label="Navigation">
+<details><summary>Membership</summary><div class="links">
+<a href="/en/membership#privee">Private membership</a>
+<a href="/en/membership#entreprise">Corporate membership</a>
+<a href="/en/member-area#adhesion">Become a member</a>
+</div></details>
+<details><summary>Services</summary><div class="links">
+<a href="/en/residences">Residences</a>
+<a href="/en/vehicles">Vehicles</a>
+<a href="/en/experiences">Experiences</a>
+<a href="/en/events">Events agency</a>
+</div></details>
+<details><summary>Contact</summary><div class="links">
+<a href="/en/book">Make a request</a>
+<span>WhatsApp: [NUMBER]</span>
+<a href="/en/legal">Legal notice</a>
+</div></details>
+</nav>
+<div class="follow">
+<div class="follow__t">Follow</div>
+<ul class="socials">
+<li><a class="rs-instagram" href="#" aria-label="Instagram"></a></li>
+<li><a class="rs-tiktok" href="#" aria-label="TikTok"></a></li>
+<li><a class="rs-facebook" href="#" aria-label="Facebook"></a></li>
+<li><a class="rs-youtube" href="#" aria-label="YouTube"></a></li>
+<li><a class="rs-x" href="#" aria-label="X"></a></li>
+</ul>
+</div>
+<div class="copy">© 2026 RSV Conciergerie. All rights reserved.</div>
+</footer>
+<script src="/assets/site.js" defer></script>
+</body>
+</html>
